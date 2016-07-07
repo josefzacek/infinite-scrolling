@@ -1,0 +1,10 @@
+h2 = link_to post.title, post_path(post), {title: post.title}
+
+small
+  em = post.timestamp
+
+p = truncate(strip_tags(post.body), length: 100)
+
+p = link_to 'Read more.. ', post_path(post), {title: post.title}
+
+hr
