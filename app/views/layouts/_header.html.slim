@@ -1,0 +1,14 @@
+nav.navbar.navbar-default.navbar-static-top
+  .container
+    .navbar-header
+      button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+
+      = link_to 'Infinite Scrolling', root_path, class: 'navbar-brand'
+
+    #navbar.collapse.navbar-collapse
+      ul.nav.navbar-nav
+        li = link_to 'Home', root_path
