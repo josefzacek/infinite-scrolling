@@ -13,5 +13,5 @@ end
 
 100.times do
   Article.create(title: Faker::Book.author,
-                body: Faker::Hipster.paragraph(2, false, 4))
+                 body: Faker::Hipster.paragraph(2, false, 4))
 end
