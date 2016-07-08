@@ -10,3 +10,8 @@
   Post.create(title: Faker::Book.title,
               body: Faker::Lorem.paragraph(2, false, 4))
 end
+
+100.times do
+  Article.create(title: Faker::Book.author,
+                body: Faker::Hipster.paragraph(2, false, 4))
+end
