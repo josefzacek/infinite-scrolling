@@ -3,7 +3,9 @@ Rails.application.routes.draw do
 
   resources :articles, only: [:index, :show]
 
-  get '/paginate', to: 'posts#paginate', as: 'paginate'
+  get '/infinite-scrolling', to: 'posts#infinite_scrolling'
+
+  get '/paginate', to: 'posts#paginate'
 
   root 'posts#index'
 
