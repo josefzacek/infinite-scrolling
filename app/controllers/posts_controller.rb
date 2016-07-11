@@ -1,5 +1,8 @@
 class PostsController < ApplicationController
   def index
+  end
+
+  def infinite_scrolling
     @posts = Post.paginate(page: params[:page],
                            per_page: 12).order('created_at DESC')
 
