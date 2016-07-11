@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   resources :articles, only: [:index, :show]
 
+  get '/paginate', to: 'posts#paginate', as: 'paginate'
+
   root 'posts#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
