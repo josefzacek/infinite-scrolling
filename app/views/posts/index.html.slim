@@ -1,5 +1,15 @@
-#posts
-  = render @posts
+.jumbotron.text-center
+  h1 Page scrolling
+  p 3 ways to load more content
+  p = link_to 'GitHub', 'https://github.com/josefzacek/infinite-scrolling', target: '_blank'
 
-#paginate-holder
-  = will_paginate
+.row
+  .col-md-4.text-center
+    h2 Infinite Scrolling
+    p Loads new records as user scrolls down
+  .col-md-4.text-center
+    h2 Load more button
+    p Load more records on click of button
+  .col-md-4.text-center
+    h2 Paginate
+    p Traditional pagination at the bottom of page
