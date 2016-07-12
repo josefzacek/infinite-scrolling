@@ -1,7 +1,0 @@
-| $('#articles').append('#{j render @articles }');
-
-- if @articles.next_page
-  | $('.pagination').replaceWith('#{j will_paginate @articles }');
-  | $('.pagination').hide();
-- else
-  | $('.pagination, #load-more-articles').remove();
