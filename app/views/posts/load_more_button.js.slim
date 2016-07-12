@@ -1,0 +1,7 @@
+| $('#listing-load-more-button').append('#{j render @posts }');
+
+- if @posts.next_page
+  | $('#paginate-load-more-button .pagination').replaceWith('#{j will_paginate @posts }');
+  | $('#paginate-load-more-button .pagination').hide();
+- else
+  | $('#paginate-load-more-button .pagination, #load-more-posts').remove();
