@@ -1,0 +1,12 @@
+h1 Load more button
+
+hr
+
+#listing-load-more-button
+  = render @posts
+
+#paginate-load-more-button
+  = will_paginate
+
+- if @posts.next_page
+  #load-more-posts.btn.btn-primary Load more posts
