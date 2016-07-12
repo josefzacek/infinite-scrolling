@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get '/infinite-scrolling', to: 'posts#infinite_scrolling'
 
+  get '/load-more-button', to: 'posts#load_more_button'
+
   get '/paginate', to: 'posts#paginate'
 
   root 'posts#index'
