@@ -15,4 +15,7 @@ html
     .container
       = yield
 
+    = link_to '#', class: "btn btn-primary back-to-top-button hidden" do
+      span.glyphicon.glyphicon-chevron-up
+
     = render 'layouts/footer'
