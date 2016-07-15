@@ -37,5 +37,15 @@ $( document ).ready(function() {
       $('.back-to-top-button').addClass('hidden');
     }
   });
+
+  //smooth scroll to top
+  $('.back-to-top-button').on('click', function(event){
+    event.preventDefault();
+    $('body,html').animate({
+      scrollTop: 0
+      }
+    );
+  });
+
 });
 
