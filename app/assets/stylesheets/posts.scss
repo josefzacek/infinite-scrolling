@@ -12,3 +12,8 @@
   bottom: 40px;
   right: 20px;
 }
+
+div#query_diet {
+  z-index: 1001 !important;
+  position: fixed !important;
+}
