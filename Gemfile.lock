@@ -92,6 +92,7 @@ GEM
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
     pkg-config (1.1.7)
+    query_diet (0.6.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -176,6 +177,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mysql2 (~> 0.3.12)
+  query_diet (~> 0.6.0)
   rails (= 4.2.6)
   rails_12factor
   sass-rails (~> 5.0)
