@@ -26,3 +26,4 @@ test:
 production:
   <<: *default
   database: production_database
+  database: infinite_scrolling_database
