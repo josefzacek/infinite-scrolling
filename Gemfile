@@ -52,4 +52,3 @@ group :development do
 
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
 end
-
