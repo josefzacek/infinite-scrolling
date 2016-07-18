@@ -9,4 +9,6 @@
 150.times do
   Post.create(title: Faker::Book.title,
               body: Faker::Lorem.paragraph(2, false, 4))
+
+  sleep 3
 end
