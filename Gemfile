@@ -38,11 +38,13 @@ gem 'slim', '~> 3.0', '>= 3.0.7'
 
 gem 'mysql2', '~> 0.3.12'
 
+gem 'faker', '~> 1.6', '>= 1.6.3'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   
-  gem 'faker', '~> 1.6', '>= 1.6.3'
+  
 end
 
 group :development do
