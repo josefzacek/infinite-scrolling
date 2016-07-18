@@ -38,6 +38,7 @@ gem 'slim', '~> 3.0', '>= 3.0.7'
 
 gem 'mysql2', '~> 0.3.12'
 
+gem 'rails_12factor', group: :production
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
