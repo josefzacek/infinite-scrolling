@@ -36,6 +36,8 @@ gem 'bootstrap-will_paginate', '~> 0.0.10'
 
 gem 'slim', '~> 3.0', '>= 3.0.7'
 
+gem 'mysql2', '~> 0.3.12'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
