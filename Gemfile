@@ -45,7 +45,7 @@ gem 'query_diet', '~> 0.6.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  
+
   gem 'faker', '~> 1.6', '>= 1.6.3'
 end
 
