@@ -7,7 +7,7 @@ Demo available at [https://infinite-scrolling.herokuapp.com/](https://infinite-s
 Loads new records as user scrolls down
 
 ## Load more button
-Loads more records on click of button at the botton of page
+Loads more records on click of button at the bottom of page
 
 ## Paginate
 Traditional pagination at the bottom of page
@@ -16,7 +16,7 @@ Traditional pagination at the bottom of page
 
 Ruby versin: 2.3.1
 
-Rails version:  4.2.6
+Rails version:  5.1.4
 
 ---
 
@@ -34,14 +34,8 @@ Rails version:  4.2.6
 
 * `gem 'turbolinks'`
 
-**NOTE:** I have tried multiple ways to get **Infinite Scrolling** and **Load more button** pages working with Turbolinks without refeshing page which seemed to be unsuccessful.
+**NOTE:** I have tried multiple ways to get **Infinite Scrolling** and **Load more button** pages working with Turbolinks without refreshing page which seemed to be unsuccessful.
 
 Removing **Turbolinks** was the only (**temporary**) option to fix this problem.
 
 ### All suggestions to get it working with Turbolinks more than welcome
-
-
-
-
-
-
