@@ -57,4 +57,6 @@ group :development do
   gem 'spring'
 
   gem 'better_errors', '~> 2.1', '>= 2.1.1'
+
+  gem 'listen', '~> 3.1', '>= 3.1.5'
 end
