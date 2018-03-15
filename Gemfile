@@ -39,7 +39,7 @@ gem 'will_paginate', '~> 3.1'
 
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 
-gem 'bootstrap-will_paginate', '~> 0.0.10'
+gem 'bootstrap-will_paginate', '~> 1.0'
 
 gem 'slim', '~> 3.0', '>= 3.0.7'
 
