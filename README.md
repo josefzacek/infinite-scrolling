@@ -16,21 +16,20 @@ Traditional pagination at the bottom of page
 
 ---
 
-Ruby versin: 2.3.1
 
-Rails version:  5.1.4
+## Gems used
 
----
+* `gem 'will_paginate'`
 
-## Gems installed
+* `gem 'bootstrap-sass'`
 
-* `gem 'will_paginate', '~> 3.1'`
+* `gem 'bootstrap-will_paginate'`
 
-* `gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'`
+* `gem 'slim'`
 
-* `gem 'bootstrap-will_paginate', '~> 0.0.10'`
+* `gem 'faker'`
 
-* `gem 'slim', '~> 3.0', '>= 3.0.7'`
+* `gem 'query_diet'`
 
 ## Gem removed
 
@@ -40,4 +39,4 @@ Rails version:  5.1.4
 
 Removing **Turbolinks** was the only (**temporary**) option to fix this problem.
 
-### All suggestions to get it working with Turbolinks more than welcome
+#### All pull requests welcome!!
