@@ -1,3 +1,5 @@
+[![Dependency Status](https://gemnasium.com/badges/github.com/josefzacek/infinite-scrolling.svg)](https://gemnasium.com/github.com/josefzacek/infinite-scrolling)
+
 # Page scrolling
 3 ways to load more records from database
 
