@@ -43,7 +43,7 @@ gem 'bootstrap-will_paginate', '~> 1.0'
 
 gem 'slim', '~> 3.0', '>= 3.0.7'
 
-gem 'mysql2', '~> 0.3.12'
+gem 'mysql2', '~> 0.4.10'
 
 gem 'rails_12factor', group: :production
 
